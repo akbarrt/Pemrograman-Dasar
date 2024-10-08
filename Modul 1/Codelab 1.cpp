@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 int main (){
 	int a, b;
 	printf("masukkan dua angka: ");
@@ -20,7 +22,7 @@ int main (){
 		{
 			printf("Error: Pembagian dengan nol\n");
 		}
-		
+	system("pause");
 	return 0;
 	
 }
