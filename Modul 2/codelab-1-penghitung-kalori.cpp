@@ -12,6 +12,7 @@ int main() {
 	scanf("%d", &tiga);
 	
 	total = (satu + dua + tiga);
+	printf("Total Kalori : %d", total);
 	
 	if (total > 2000) {
 		printf("\nTotal kalori melebihi batas \n", total);
